@@ -16,6 +16,7 @@ function fullName(){
 
 function information(city){
     this.city = city;
+    console.log(Object);
     console.log(this.firstName+' '+this.lastName+' '+this.city);
 }
 
@@ -32,8 +33,16 @@ let person1 = {
     lastName: 'Potter',
     city: 'London',
     name: fullName,
-    in : information
+    in : information,
+    /*anotherfunction: function(){
+        var that= this;
+        bjectb.func(){
+            this
+        }
+    }*/
 }
 
 person1.in('Pune');
 
+information();
+person1.in

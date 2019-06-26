@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        svg{
+            transform: rotateX(20deg);
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>SVG</h1>
+    <p>this is svg and d3.js program.</p>
+    <svg height ="1500" width="1500"> 
+        <rect  X="250" Y="120" width="130" height="100" style="fill: none; stroke: black; stroke-width: 1" /> <! rectangle>
+        <line x1="180" x2="250" y1="140" y2="140" style="stroke-width: 1;stroke:black"></line> <! rect side 1st line>
+        <line X1="180" X2="250" Y1="170" Y2="170" style="stroke-width: 1; stroke:black"></line> <! rect side 2nd line>
+        <line X1="180" X2="250" Y1="200" Y2="200" style="stroke-width: 1; stroke:black"></line> <! rect side 3rd line>
+
+        <line id="top" x1="100" x2="400" y1="60" y2="60" style="stroke-width: 1; stroke:black"></line> <! top line>
+        <path id="bottom" d= "M 100 300 L 400 300" stroke-width="1"; stroke="black"></path> <! bottom line>
+
+
+        <line x1 = "280" x2="280" y1="60" y2="120" style="stroke-width: 1; stroke:black"></line> <! rect top 1st line>
+        <line x1 = "340" x2="340" y1="60" y2="120" style="stroke-width: 1; stroke:black"></line> <! rect top 2nd line>
+
+        <g>
+            <circle cx="180" cy="140" r="3"></circle>
+            <circle cx="180" cy="170" r="3"></circle>
+            <circle cx="180" cy="200" r="3"></circle>
+            <circle cx="280" cy="60" r="3"></circle>
+            <circle cx="340" cy="60" r="3"></circle>
+        </g>
+    
+
+        <path d="M0,-220 h50 v12 m-8,0 h16 m-16,8 h16 m-8,0 V-180 M50,-220 H220 m0,-8 v16 M80,-220 V140"  stroke-width="1"; stroke="black"/>
+
+    </svg>
+
+
+
+</body>
+</html> 
